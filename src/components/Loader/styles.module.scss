@@ -1,0 +1,23 @@
+.spinnerWrapper {
+	width: 70px;
+	height: 70px;
+}
+
+.spinnerIcon {
+	width: 100%;
+	height: 100%;
+	background-image: url('../../assets/loading.svg');
+	background-size: cover;
+	background-position: center;
+	animation: loading-animation 1s infinite linear;
+
+	@keyframes loading-animation {
+		0% {
+			transform: rotate(0deg);
+		}
+
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+}

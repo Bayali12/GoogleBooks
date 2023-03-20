@@ -1,0 +1,16 @@
+.label {
+	display: flex;
+	gap: 20px;
+	font-size: 20px;
+}
+
+.select {
+	width: 110px;
+	border-radius: 5px;
+	border: 1px solid #0a334d;
+	outline: none;
+
+	&:focus {
+		box-shadow: 0 0 0 4px rgba(100, 152, 236, 0.35);
+	}
+}

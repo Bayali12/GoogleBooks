@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	justify-content: center;
+	max-width: 1024px;
+	padding: 20px;
+	margin: 40px auto 0;
+	gap: 20px;
+	border: 1px solid #2222;
+	border-radius: 15px;
+	background-color: #e6e6e6;
+}
+
+.imageWrapper {
+	height: 320px;
+	background-color: rgb(128, 128, 128);
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.image {
+	height: 100%;
+}
+
+.bookInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.category {
+	color: rgb(165, 165, 165);
+	text-decoration: underline;
+}
